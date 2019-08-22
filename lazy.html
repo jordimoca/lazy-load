@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lazy elements</title>
+    <link rel="stylesheet" href="styles.css">
+
+	<script>
+			var element = document.querySelectorAll("lazy");
+			var position = element.getBoundingClientRect();
+			height = position.top;
+
+				console.log(position);
+	</script>
+
+  </head>
+  <body>
+    <header class="header">
+
+    </header>
+    <div class="main">
+		<h1 class="title">Loading lazy elements</h1>
+		<div class="gallery">
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img1.jpg" width="400" height="225">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img2.jpg" width="400" height="283">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img3.jpg" width="400" height="300">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img4.jpg" width="400" height="283">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img5.jpg" width="400" height="200">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img6.jpg" width="400" height="229">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img7.jpg" width="400" height="300">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img8.jpg" width="400" height="250">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img9.jpg" width="400" height="300">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img10.jpg" width="400" height="300">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img11.jpg" width="400" height="400">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img12.jpg" width="400" height="225">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img13.jpg" width="400" height="400">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img14.jpg" width="400" height="256">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img15.jpg" width="400" height="500">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img16.jpg" width="400" height="267">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img17.jpg" width="400" height="400">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img18.jpg" width="400" height="265">
+				</div>
+			</div>
+			<div class="gallery__row">
+				<div class="gallery__item">
+					<img class="lazy" src="img/img19.jpg" width="400" height="267">
+				</div>
+				<div class="gallery__item">
+					<img class="lazy" src="img/img20.jpg" width="400" height="400">
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+
+</html>
